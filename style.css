@@ -28,7 +28,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("./img/fundo.png");
+    background-image: url("./img/tema2\ \(1\).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ body {
     & h1 {
     font-family: "Oswald", sans-serif;
     font-weight:700;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top:4px;
     }
 
@@ -89,10 +89,14 @@ body {
 .btn1 {
     width: 100%;
     height: 70px;
-    background-color: #333333;
+    background-color: #1d1c1c;
     display: flex;
     border-top: solid 7px #00AFEF;
     margin-top: 25px;
+}
+.btn1:hover {
+    background-color: #252525;
+
 }
 
 .icon {
@@ -107,6 +111,7 @@ body {
         color: #00AFEF;
     }
 }
+
 
 .content1 {
     width: 80%;
@@ -164,6 +169,13 @@ body {
         font-size: 2rem;
     }
 }
+.ig:hover {
+    background-color: #1d1c1c;
+    & .fa-instagram{
+        color: #f9fbfc;
+        font-size: 2rem;
+    }
+}
 
 .whatsap {
     width: 45px;
@@ -180,6 +192,12 @@ body {
         font-size: 2rem;
     }
 }
+.whatsap:hover {
+    background-color: #1d1c1c;
+    & .fa-whatsapp{
+        color: #f9fbfc;
+    }
+}
 
 .git {
     width: 45px;
@@ -193,6 +211,11 @@ body {
 
     & .fa-github{
         color: #f9fbfc;
-        font-size: 2rem;
+    }
+}
+.git:hover {
+    background-color: #1d1c1c;
+    & .fa-github{
+        color: #f9fbfc;
     }
 }
