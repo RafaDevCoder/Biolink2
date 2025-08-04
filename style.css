@@ -111,6 +111,23 @@ body {
   }
 }
 
+.in{
+  width: 45px;
+  height: 45px;
+  border-radius: 125px;
+  color: white;
+  background-color: #00afef;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+.in:hover{
+  background-color: #252525;
+
+}
+
 .content1 {
   width: 80%;
   height: 100%;
